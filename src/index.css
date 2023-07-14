@@ -4,12 +4,10 @@
   box-sizing: border-box;
 }
 body {
-  /* background-color: bisque; */
   background-color: #42275a;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/*! Player Card/Container Styling  */
 .card-container {
   min-width: 300px;
 }

@@ -7,7 +7,6 @@ import PlayerCard from "./PlayerCard";
 import { useState } from "react";
 const CardContainer = () => {
   const [search, setSearch] = useState("");
-  // console.log(search);
 
   return (
     <>
