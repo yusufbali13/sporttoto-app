@@ -18,7 +18,7 @@ const PlayerCard = ({ name, img, statistics }) => {
         <ul className="m-auto card-second">
           {statistics.map((item, i) => {
             return (
-              <li key={i} className="h5 text-start list-unstyled">
+              <li key={i} className="h5 text-start list-unstyled text-white">
                 ⚽ {item}
               </li>
             );
@@ -26,7 +26,7 @@ const PlayerCard = ({ name, img, statistics }) => {
         </ul>
       )}
       <Card.Footer>
-        <Card.Title>{name}</Card.Title>
+        <Card.Title className="text-white">{name}</Card.Title>
       </Card.Footer>
     </Card>
   );

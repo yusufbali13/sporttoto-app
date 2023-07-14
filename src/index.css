@@ -4,20 +4,20 @@
   box-sizing: border-box;
 }
 body {
-  background-color: bisque;
+  /* background-color: bisque; */
+  background-color: #42275a;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*! Player Card/Container Styling  */
 .card-container {
-  background-image: url("https://cdnuploads.aa.com.tr/uploads/Contents/2016/05/09/thumbs_b_c_09070d577c21868e72edfc11cd52b415.jpg");
-  background-repeat: no-repeat;
   min-width: 300px;
 }
 .player-card {
   height: 400px;
   max-width: 280px;
   min-width: 230px;
+  background-color: #734b6d;
 }
 .player-card:hover {
   box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.5);
