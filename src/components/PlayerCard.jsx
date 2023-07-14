@@ -19,7 +19,7 @@ const PlayerCard = ({ name, img, statistics }) => {
           {statistics.map((item, i) => {
             return (
               <li key={i} className="h5 text-start list-unstyled">
-                🏀 {item}
+                ⚽ {item}
               </li>
             );
           })}
