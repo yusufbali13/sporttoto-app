@@ -10,7 +10,8 @@ body {
 
 /*! Player Card/Container Styling  */
 .card-container {
-  background-image: url("https://p4.wallpaperbetter.com/wallpaper/661/973/110/cool-nba-logo-wallpaper-preview.jpg");
+  background-image: url("https://cdnuploads.aa.com.tr/uploads/Contents/2016/05/09/thumbs_b_c_09070d577c21868e72edfc11cd52b415.jpg");
+  background-repeat: no-repeat;
   min-width: 300px;
 }
 .player-card {

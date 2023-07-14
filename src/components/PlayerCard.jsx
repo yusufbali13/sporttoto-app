@@ -15,7 +15,7 @@ const PlayerCard = ({ name, img, statistics }) => {
       {showImage ? (
         <Card.Img variant="top" src={img} className="player-logo" />
       ) : (
-        <ul className="m-auto">
+        <ul className="m-auto card-second">
           {statistics.map((item, i) => {
             return (
               <li key={i} className="h5 text-start list-unstyled">
